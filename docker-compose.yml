@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  my-website:
+    image: portfolio-website:1.0
+    ports:
+      - "8081:8081"
+    container_name: portfolio-website
